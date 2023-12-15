@@ -196,7 +196,7 @@ model.train(train_dataset=train_dataset,
             val_dataset=validation_dataset, 
 
             learning_rate=nucleus_config.LEARNING_RATE, 
-            epochs=2, 
+            epochs=10, 
             layers='heads')
 
 model_path = 'Nucleus_mask_rcnn_trained.h5'
